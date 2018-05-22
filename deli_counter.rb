@@ -14,4 +14,5 @@ end
 #Method welcomes customer and tells them position in line
 def take_a_number(array, name)
   puts "Welcome, #{name}. You are number #{array.length + 1} in line."
+  array << name
 end
